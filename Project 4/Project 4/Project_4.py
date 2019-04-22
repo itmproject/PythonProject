@@ -92,6 +92,7 @@ def function(num): ##switch function to select Menu
     func = switcher.get(num, lambda: "Invalid Number: please enter number from 1 to 5")
     return func()
 
+
 def main():
     loop = True
     transaction()
